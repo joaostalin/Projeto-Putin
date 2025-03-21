@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio - Vladimir Putin</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-putin.png" alt="avatar do presidente Putin" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Vladimir Putin</p>
+        <h1>Explorando a Política com Putin</h1>
+        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional e história política, usando o exemplo do presidente Vladimir Putin e seu impacto global. Veja os projetos que desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    
+    <main class="container mt-5">
+        <h2>Meus projetos sobre Vladimir Putin</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="URL_DA_IMAGEM_AQUI" class="card-img-top" alt="Imagem do projeto sobre Putin">
+                    <div class="card-body">
+                        <h5 class="card-title">Análise do Discurso de Putin</h5>
+                        <p class="card-text">Este projeto analisa os discursos do presidente Putin, destacando as principais temáticas e retóricas utilizadas em suas falas ao longo dos anos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.amazon.com.br/images/I/81DNWQh4-wL.jpg" class="card-img-top" alt="Imagem do projeto sobre a política russa">
+                    <div class="card-body">
+                        <h5 class="card-title">Impactos da Política Externa de Putin</h5>
+                        <p class="card-text">Este projeto examina as principais decisões de política externa de Putin e suas repercussões globais, incluindo a relação com a Europa e os EUA.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3-putin.png" class="card-img-top" alt="Imagem do projeto sobre a propaganda russa">
+                    <div class="card-body">
+                        <h5 class="card-title">A Propaganda de Putin na Era Digital</h5>
+                        <p class="card-text">Este projeto investiga as estratégias de propaganda utilizadas pelo governo russo nas mídias sociais e seu impacto na opinião pública.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Análise do Discurso de Putin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto analisa os discursos de Vladimir Putin, focando nas temáticas de poder, soberania e nacionalismo. Utilizamos ferramentas de processamento de linguagem para identificar padrões e retóricas.</p>
+                    <img src="img/projeto-1-putin.png" class="img-fluid w-100" alt="Imagem representativa da análise do discurso de Putin">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://exemplo.com/projeto-analiseputin">Ver projeto ao vivo</a>
+                    <a href="https://github.com/exemplo/analiseputin">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Impactos da Política Externa de Putin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto examina as decisões de política externa de Putin, incluindo a anexação da Crimeia e a intervenção na Síria, e suas repercussões nas relações internacionais.</p>
+                    <img src="img/projeto-2-putin.png" class="img-fluid w-100" alt="Imagem representativa da política externa de Putin">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://exemplo.com/projeto-politicaexterna">Ver projeto ao vivo</a>
+                    <a href="https://github.com/exemplo/politicaexterna">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">A Propaganda de Putin na Era Digital</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto investiga as táticas de propaganda utilizadas pelo governo russo nas redes sociais, analisando sua eficácia na formação da opinião pública.</p>
+                    <img src="img/projeto-3-putin.png" class="img-fluid w-100" alt="Imagem representativa da propaganda russa">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://exemplo.com/projeto-propaganda">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
